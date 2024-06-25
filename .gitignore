@@ -1,0 +1,21 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Exclude tfvars if it contains sensitive information
+terraform.tfvars
+
+# Exclude .terraform.lock.hcl
+.terraform.lock.hcl
+
+# Ignore editor-specific files
+*.swp
+*.swo
+.idea/
+.vscode/
