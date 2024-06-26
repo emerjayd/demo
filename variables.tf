@@ -16,6 +16,12 @@ variable "aws_secret_key" {
   sensitive   = true
 }
 
+variable "ami_id" {
+  description = "The AMI ID to use for the instance"
+  type        = string
+  default     = "ami-0551ce4d67096d606"
+}
+
 variable "instance_size_type" {
   description = "Map of instance sizes"
   type        = map(string)
